@@ -1,0 +1,105 @@
+header {
+  width: 100%;
+  padding: 1.5rem 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color:coral;
+  text-transform: uppercase;
+  width:100px
+}
+
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+  font-size: larger;
+}
+.nav-links a:hover{
+  color:orange;
+}
+.theme-toggle {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.btn-outline-dark{
+  border:none;
+}
+ .home1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+    padding-top: 10px;
+    font-size: 1.5rem;
+}
+
+.home1 h1 span{
+color:blue;
+}
+.home2 {
+  font-style: italic;
+  padding-left: 100px;
+  padding-top: 20px;
+  font-size: 1.5rem;
+  color:brown;
+}
+div.home3 {
+  overflow: hidden;
+}
+
+div.home3  img{
+  margin-top: 20px;
+  margin-left: -70px;
+}
+div.about1{
+  font-size: 1.4rem;
+}
+div.about2 img{
+  width: 60%;
+  height:60%;
+  margin-top: -90px;
+  margin-left: 100px;
+}
+div.contact1 img{
+  width: 30%;
+  height:200px;
+  margin-top: 10px;
+}
+.contact2 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto; 
+  width: max-content; 
+  text-align: left;
+}
+.contact-shadow-box {
+  box-shadow: 0 20px 24px rgba(12, 12, 12, 0.2);
+  border: 1px solid #100f0f;
+  border-radius: 7px;
+}
+.contact-shadow-box:hover {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
